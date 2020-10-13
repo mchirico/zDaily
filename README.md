@@ -1,6 +1,6 @@
 
 
-
+![Go](https://github.com/mchirico/zDaily/workflows/Go/badge.svg)
 
 # zDaily
 

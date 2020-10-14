@@ -1,8 +1,8 @@
 
 
-![Go](https://github.com/mchirico/zDaily/workflows/Go/badge.svg)
+![go](https://github.com/mchirico/zdaily/workflows/go/badge.svg)
 
-# zDaily
+# zdaily
 
 Daily programming ideas with Zoe
 

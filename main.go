@@ -1,17 +1,28 @@
 package main
+
 import (
 	"fmt"
 )
 
-type A struct {
-	 i int
+type Cat struct {
+	Name string
+	Breed string
 }
 
-func (a *A)Thing() int {
-	return 2*a.i
+func newKitten(Name, Breed string) *Cat {
+
+	m:=&Cat{Name: Name,Breed: Breed}
+
+	return m
+}
+
+func (cat *Cat) Print() {
+	fmt.Println(cat)
 }
 
 
 func main(){
-	fmt.Println("Hello Mouse")
+	 cat := newKitten("Mousey","tuxedo")
+	 cat.Print()
+
 }
